@@ -1,1 +1,1 @@
-module.exports = function (cb) { cb(null, 'Hello'); }
+module.exports = function (cb) { cb(null, 'Hello World!'); }
