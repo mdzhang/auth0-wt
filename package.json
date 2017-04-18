@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/mdzhang/auth0-wt",
   "author": "Michelle D. Zhang <zhang.michelle.d@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "wt-cli": "^6.0.0"
+  }
 }
