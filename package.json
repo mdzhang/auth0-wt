@@ -1,0 +1,9 @@
+{
+  "name": "auth0-wt",
+  "version": "1.0.0",
+  "description": "Playing around with Auth0 Webtasks",
+  "main": "index.js",
+  "repository": "https://github.com/mdzhang/auth0-wt",
+  "author": "Michelle D. Zhang <zhang.michelle.d@gmail.com>",
+  "license": "MIT"
+}
