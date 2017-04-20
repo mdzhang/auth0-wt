@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "create": "wt create index --secret REDIS_URL=${REDIS_URL}",
+    "create:cron": "wt cron schedule '*/5 * * * *' index --secret REDIS_URL=${REDIS_URL}",
     "open": "open ${TRUMP_COUNTER_WEBTASK_URL}",
     "test": "mocha -R spec index.test.js"
   },
