@@ -1,0 +1,26 @@
+{
+  "name": "trump-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "create": "wt create index --secret REDIS_URL=${REDIS_URL}",
+    "open": "open ${TRUMP_COUNTER_WEBTASK_URL}",
+    "test": "mocha -R spec index.test.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.6.3",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "fakeredis": "^2.0.0",
+    "fetch-mock": "^5.10.0",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.11"
+  }
+}

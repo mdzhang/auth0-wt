@@ -53,6 +53,13 @@ Playing around with [Auth0 Webtasks](https://github.com/auth0/wt-cli)
     direnv allow
     ```
 
+1. Install git hooks
+    ```sh
+    pre-commit install
+    ```
+
+    *NB*: These hooks will fail if `.envrc` is not up to date
+
 ## Running
 
-TODO
+See individual webtask installation instructions.
